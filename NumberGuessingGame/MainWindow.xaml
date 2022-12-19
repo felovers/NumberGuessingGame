@@ -1,0 +1,14 @@
+﻿<Window x:Class="NumberGuessingGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumberGuessingGame"
+        mc:Ignorable="d"
+        Background="CornflowerBlue"
+        Title="Number Guessing Game" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="NUMBER GUESSING GAME" HorizontalAlignment="Center" Margin="0,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="50" FontWeight="Bold"/>
+        <Button Content="PLAY" FontWeight="Bold" FontSize="35" VerticalAlignment="Top" HorizontalAlignment="Center" Height="50" Width="120" Margin="0,250,0,0" Click="Play_Button_Click"/>
+    </Grid>
+</Window>

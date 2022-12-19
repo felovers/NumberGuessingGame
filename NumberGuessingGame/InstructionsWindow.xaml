@@ -1,0 +1,20 @@
+﻿<Window x:Class="NumberGuessingGame.InstructionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumberGuessingGame"
+        mc:Ignorable="d"
+        Background="CornflowerBlue"
+        Title="Instructions" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="INSTRUÇÕES" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+        <TextBlock Text="1. O Sistema escolherá um número aleatório de 1 até 5;" HorizontalAlignment="Center" Margin="0,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="25" Width="694"/>
+        <TextBlock Text="2. O Jogador escolherá um número de 1 até 5;" HorizontalAlignment="Center" Margin="0,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="25" Width="694"/>
+        <TextBlock Text="3. Se o Jogador escolher o mesmo número que o sistema, o Jogador vence;" HorizontalAlignment="Center" Margin="0,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="25" Width="694"/>
+        <TextBlock Text="4. Se o número escolhido pelo Sistema for diferente do número do Jogador, o Jogador perde." HorizontalAlignment="Center" Margin="0,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="25" Width="694"/>
+        
+        <Button Content="CONTINUAR" FontWeight="Bold" FontSize="18" Height="40" Width="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="Continuar_Button_Click"/>
+        <Button Content="VOLTAR" FontWeight="Bold" FontSize="18" Height="40" Width="120" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="Voltar_Button_Click"/>
+    </Grid>
+</Window>
